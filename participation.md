@@ -32,11 +32,14 @@ more than one point per category. There is a maximum of 5 points each week.
   + attended class on Thursday
   + Volunteered at the front of class
   + Introduced myself to Mikaela
+  + Total 4 points
 - Week 2
   + attended class on Tuesday
   + attended class on Thursday
   + I met Kristy and steven on Thursday
   + Attended TA office hour
+  + Assessed in class
+  + Total 5 points
 - Week 3
 - Week 4
 - Week 5
