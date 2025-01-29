@@ -10,9 +10,10 @@ def is_valid(num):
 print(is_valid(0.5))
 print(is_valid(2))
 
-def mean3(a,b,c,d): 
-	sum = a+b+c+d
+def harmonicmean(a,b,c,d):
+	sum=(1/a)+(1/b)+(1/c)+(1/d)
 	return sum/4
-print(mean3(1,2,3,4))
+print(harmonicmean(1,2,3,4))
+
 
 
