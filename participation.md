@@ -53,7 +53,12 @@ more than one point per category. There is a maximum of 5 points each week.
   + Attended class on Tuesday
   + Attended class on Thursday
   + Asked question in office hour
+  + Total 3 points
 - Week 6
+  + Attended class on Tuesday
+  + Introduced myself to Michael
+  + Attended class on Thursday
+  + Total 3 points
 - Week 7
 - Week 8
 - Week 9
