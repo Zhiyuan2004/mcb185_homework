@@ -58,8 +58,11 @@ more than one point per category. There is a maximum of 5 points each week.
   + Attended class on Tuesday
   + Introduced myself to Michael
   + Attended class on Thursday
-  + Total 3 points
+  + Attended a Coderie
+  + Total 4 points
 - Week 7
+  + Attended class on Tuesday
+  + Attended class on Thursday
 - Week 8
 - Week 9
 - Week 10
