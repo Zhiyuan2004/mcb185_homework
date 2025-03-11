@@ -14,30 +14,18 @@ def cal_kd(seq):
 		kd += kdscale[aa]
 	return kd / len(seq)
 
-def signal_pep(protein):
-	n_term = protein[:30]
-	for i in range(len(n_term) - 8 + 1):
-		window = n_term[i:i+8]
+def peptide(protein,w,t): 
+	for i in range(len(protein) - w + 1):
+		window = protein[i:i+w]
 		if 'P' in window:
 			continue #skip windows containing proline 
 		kd = cal_kd(window)
-		if kd >= 2.5:
-			return True
-		return False
-
-def trans_reg(protein):
-	remain_seq = protein[30:]
-	for i in range(len(remain_seq) - 11 + 1):
-		window = remain_seq[i:i+11]
-		if 'P' in window:
-			continue
-		kd = cal_kd(window)
-		if kd >= 2.0:
+		if kd >= t:
 			return True
 		return False
 
 fasta_file = sys.argv[1] 
 #~/Code/MCB185/data/GCF_000005845.2_ASM584v2_protein.faa.gz
 for defline, protein in mcb185.read_fasta(fasta_file):
-	if signal_pep(protein) and trans_reg(protein):
+	if peptide(protein[:30],8,2.5) and peptide(protein[30:],11,2):
 		print(defline)
