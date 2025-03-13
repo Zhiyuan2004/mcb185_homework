@@ -27,8 +27,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Introduced myself to Chris B
 	+ Didn't come to class Thursday to save you from getting sick
 	+ Total 4 points
+	
 - Week 1
-  + didn't come to class Tuesday due to sprained ankle
+  + didn't come to class Tuesday due to sprained ankle but attended office hour to catch up
   + attended class on Thursday
   + Volunteered at the front of class
   + Introduced myself to Mikaela
@@ -36,19 +37,20 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 2
   + attended class on Tuesday
   + attended class on Thursday
-  + I met Kristy and steven on Thursday
+  + I met Kristy and Steven in Thursday
   + Attended TA office hour
-  + Assessed in class
+  + Practiced assessment in class with Kristy and Steven 
   + Total 5 points
 - Week 3
   + Attended class on Tuesday
-  + Assessed in class
+  + Assessed in class unit 0 
   + Attended class on Thursday
   + Total 3 points
 - Week 4
   + Attended class on Tuesday
   + Attended class on Thursday
-  + Total 2 points
+  + assessed in class unit 1
+  + Total 3 points
 - Week 5
   + Attended class on Tuesday
   + Attended class on Thursday
@@ -63,18 +65,24 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 7
   + Attended class on Tuesday
   + Attended class on Thursday
-  + Total 2 points
+  + Completed unit2 assessment
+  + Total 3 points
 - Week 8
   + Attended class on Tuesday
   + Attended class on Thursday
-  + Total 2 points
+  + Completed unit 3 assessment
+  + Total 3 points
 - Week 9
   + Attended class on Tuesday
   + Attended class on Thursday
   + Asked question in discord
-  + Total 3 points
+  + Asked questions in office hour
+  + Answered questions in discord
+  + Total 5 points
 - Week 10
+  + Completed unit 4 assessment
   + Attended class on Tuesday
-  + Attended class on Thursday
-  + Total 2 points
+  + Class cancelled on Thursday
+  + Ased questions in office hour
+  + Total 4 points
   
