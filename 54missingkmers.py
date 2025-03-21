@@ -14,22 +14,15 @@ def missing_kmer(seq,k):
 	for i in range(len(rc_seq) - k + 1):
 		kmer = rc_seq[i:i+k]
 		kcount[kmer] = 1
-	# Generate all possible k-mers
-	all_kmers = set(''.join(nts) for nts in itertools.product('ACGT',repeat=k))
-	# Find missing k-mers
-	missing_kmer = all_kmers - set(kcount.keys()) # Convert dictionary keys to a set
-	return missing_kmer # Return the set of missing k-mers
+	if len(kcount) < 4 ** k:
+		return True
+	return False
 
 ecoligenome = sys.argv[1]
 for defline, seq in mcb185.read_fasta(ecoligenome):
 	k = 1 # Start with k=1
 	while True:
-		mis_kmer = missing_kmer(seq,k) # use the function to find missing kmers
-		if mis_kmer:
-			print(f'k={k}: {len(mis_kmer)} missing k-mer')
-			for kmer in sorted(mis_kmer):
-				print(kmer)
-			break # stop after finding the smallest k with missing k-mers
+		if missing_kmer(seq,k): # Check if there are missing k-mers for the current k
+			print(f'k={k}:missing k-mers found')
+			break  # Stop after finding the smallest k with missing k-mers
 		k += 1 # Increment k and repeat the process
-
-
